@@ -1,4 +1,6 @@
-runs on any  python 3 version
+# My First Python Project
+
+Runs on any  python 3 version
 just launch or run the alien_assault file
  Alien assault, a simple shooting game where the player controls a ship that appears at
 the bottom center of the screen. The player  moves the ship
