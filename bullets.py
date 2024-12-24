@@ -9,7 +9,9 @@ class Bullets(Sprite):
 		'''this creates the bullet object'''
 		super(Bullets, self).__init__()
 		self.screen = screen
+		
 		#create a bullet at initial position (0,0)
+		
 		self.rect = pygame.Rect(0,0,aa_settings.bullet_width,
 			aa_settings.bullet_height)
 		self.rect.centerx  = ship.rect.centerx
@@ -25,6 +27,7 @@ class Bullets(Sprite):
 	def update(self):
 		'''moves and update the bullet'''
 		#position the bullet
+		
 		self.y -= self.speed_factor
 		#updatethe rect position:
 		self.rect.y = self.y            
