@@ -9,6 +9,7 @@ class Ship(Sprite):
 		super(Ship, self).__init__()
 		self.screen = screen
 		self.aa_settings = aa_settings
+		
 		#load image and get rect:
 		self.image = pygame.image.load('images/ship_2.bmp')
 		self.rect = self.image.get_rect()
@@ -27,7 +28,9 @@ class Ship(Sprite):
 		
 	def update(self):
 		'''updates shipping position based on movement flag'''
+		
 		#update ships center value, not rect
+		
 		if self.moving_right and self.rect.right < self.screen_rect.right:
 			self.center += self.aa_settings.ship_speed_factor 
 		if self.moving_left and self.rect.left > 0:
