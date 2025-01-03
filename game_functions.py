@@ -8,6 +8,7 @@ from time import sleep
 
 def check_keydown_events(event, aa_settings, screen, ship, bullets):
 	'''respond to keypresses'''
+	
 	if event.key == pygame.K_RIGHT:
 		ship.moving_right = True
 	elif event.key ==  pygame.K_LEFT:
