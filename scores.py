@@ -5,6 +5,7 @@ from ship import Ship
 
 
 class scores():
+	
 	"""A cass that keeps scoring info"""
 	
 	def __init__(self, aa_settings,screen,stats):
