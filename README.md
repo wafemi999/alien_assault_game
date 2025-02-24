@@ -1,4 +1,6 @@
-# My First Python Project
+# My First Python Project, 
+
+## Specification:
 
 Runs on any  python 3 version
 just launch or run the alien_assault file
