@@ -1,4 +1,4 @@
-# My First Python Project, 
+# My First Python Project
 
 ## Specification:
 
